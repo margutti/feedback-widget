@@ -2,8 +2,6 @@ import { NodemailerMailAdapter } from './adapters/nodemailer/nodemailer-mail-ada
 import { PrismaFeedbackRepository } from './repositories/prisma/prisma-feedback-repository';
 import { SubmitFeedbackService } from './services/submit-feedback-service';
 import express from 'express';
-import nodemailer from 'nodemailer';
-import { prisma } from './prisma';
 
 export const routes = express.Router();
 
